@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@100,600;106.5,472&display=swap"
+        rel="stylesheet">
+    <link rel="styleSheet" href="2calculator.css" />
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="calculator-grid">
+        <div class="output">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <button data-number class="number" >7</button>
+        <button data-number class="number" >8</button>
+        <button data-number class="number" >9</button>
+        <button data-clear-last class="operator" >C</button>
+        <button data-all-clear class="operator" id="AC">AC</button>
+        <button data-number class="number" >4</button>
+        <button data-number class="number" >5</button>
+        <button data-number class="number" >6</button>
+        <button data-operator class="operator" >÷</button>
+        <button data-operator class="operator" >x</button>
+        <button data-number class="number" >1</button>
+        <button data-number class="number" >2</button>
+        <button data-number class="number" >3</button>
+        <button data-operator class="operator" >+</button>
+        <button data-operator class="operator" >-</button>
+        <button data-negative-positive class="operator" >+/-</button>
+        <button data-number class="number" >0</button>
+        <button data-number class="operator" >.</button>
+        <button data-operator class="large-btn" >=</button>
+    </div>
+
+    <script src="2calculator.js"></script>
+</body>
+
+</html>
