@@ -1,10 +1,10 @@
-.row {
+.calculator{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
   
-  .column {
+  .row {
     flex-basis: 100%;
   }
   
