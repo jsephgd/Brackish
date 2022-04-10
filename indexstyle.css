@@ -3,8 +3,10 @@
 
 
 
-.header { text-align: center; color: rgb(0, 0, 0);
+.header { text-align: center; color: rgb(0, 0, 0); background-color: white; padding: 20px;
 }
+
+p {background-color: white; padding: 20px;}
 
 .flex-container {
     display: flex;
@@ -23,7 +25,9 @@
     padding-right: 10px;
   }
  
-body {background-image: url("Pictures/indexbg.jpg") ;}
+/*body {background-image: url("Pictures/indexbg.jpg") ;}*/
+body {background-image: url("Pictures/hyphenbg.jpg") ;}
+
 
 p {
     text-align: center;
