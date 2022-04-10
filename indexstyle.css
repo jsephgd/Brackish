@@ -1,0 +1,34 @@
+
+
+
+
+
+.header { text-align: center; color: rgb(0, 0, 0);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    
+    
+    height: 20px;
+    flex: 1 1 auto;
+    float: left;
+    list-style-type: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+ 
+body {background-image: url("Pictures/indexbg.jpg") ;}
+
+p {
+    text-align: center;
+}
+
+h1 {
+        font-family: 'Courier New', Courier, monospace;
+}
